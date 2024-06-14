@@ -2,6 +2,7 @@
   "name": "sacred-y-websocket",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "y-websocket": "^2.0.3"
   }
