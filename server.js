@@ -1,3 +1,3 @@
 const { execSync } = require('child_process');
 
-execSync(`YPERSISTENCE=./data node ./node_modules/y-websocket/bin/server.js`)
+execSync(`YPERSISTENCE=./data node ${__dirname}/node_modules/y-websocket/bin/server.js`)
