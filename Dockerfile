@@ -13,6 +13,9 @@ RUN npm install
 # Copy the rest of your application code
 COPY . .
 
+RUN ls ./node_modules/y-websocket/bin/  
+
+
 # Set the environment variable for Yjs persistence 
 ENV YPERSISTENCE=./data
 
@@ -20,4 +23,4 @@ ENV YPERSISTENCE=./data
 EXPOSE 1234
 
 # Define the command to run your server
-CMD ["node", "./node_modules/y-websocket/bin/server.js"] 
+CMD ["npm", "start"] 
