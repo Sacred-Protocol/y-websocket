@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "YPERSISTENCE=./data node /node_modules/y-websocket/bin/server.js"
   },
   "dependencies": {
     "y-websocket": "^2.0.3"
