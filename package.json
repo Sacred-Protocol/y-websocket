@@ -2,9 +2,6 @@
   "name": "sacred-y-websocket",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "YPERSISTENCE=./data node node_modules/y-websocket/bin/server.js"
-  },
   "dependencies": {
     "y-websocket": "^2.0.3"
   }
